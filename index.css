@@ -1,0 +1,404 @@
+@font-face {
+    font-family: Poppins;
+    src: url(asset/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(asset/font/Nunito/static/Nunito-ExtraBold.ttf);
+}
+
+:root {
+    --pr-color: #5A4FCF;
+    --sc-color: #FDC886;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.br-bottom:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid var(--pr-color);
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.btn-login {
+    background-color: rgba(90, 79, 207, 0.1);
+    color: var(--pr-color);
+    border: none;
+    border-radius: 12px;
+    width: 104px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    animation: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.btn-login:hover {
+    background-color: var(--pr-color);
+    color: white;
+}
+
+.form {
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 16px 28px;
+    background-image: url(asset/Search.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+.RestoIMG {
+    margin-left: 90px;
+}
+
+.overlay-ads {
+    width: 350px;
+    height: 297px;
+    left: 20px;
+    top: 130px;
+    border-radius: 24px;
+}
+
+.overlay-ads h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.overlay-ads h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #656565;
+}
+
+.overlay-ads p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656565;
+}
+
+.reserve-btn {
+    width: 226px;
+    height: 56px;
+    background: var(--sc-color);
+    border-radius: 12px;
+    border: none;
+}
+
+.ads-menu .overlay-ads {
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.ads-menu .overlay-ads:hover {
+    opacity: 1;
+}
+
+.benefit h5 {
+    text-align: center;
+    color: var(--pr-color);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.benefit h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.logo-wrap {
+    width: 80px;
+    height: 80px;
+    background: rgba(253, 200, 134, 0.15);
+    border-radius: 54px;
+}
+
+.logo {
+    top: 20%;
+    left: 20%;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.view-btn {
+    width: 17rem;
+    height: 72px;
+    left: 0px;
+    margin-top: 70px;
+    border: none;
+    border-radius: 12px 12px 24px 24px;
+    background-color: #fff;
+    transition: all ease-in-out .2s;
+}
+
+.view-btn:hover {
+    background-color: var(--sc-color);
+}
+
+.info-resto h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--pr-color);
+}
+
+.info-resto h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.info-resto p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656565
+}
+
+.btn-sec {
+    width: 238px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: var(--sc-color);
+    border: none;
+}
+
+.overlay-popular {
+    width: 302px;
+    height: 131px;
+    background-color: #fff;
+    border-radius: 24px;
+    left: 150px;
+    top: 330px;
+}
+
+.overlay-popular h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.overlay-popular p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656565;
+}
+
+.overlay-popular button {
+    border: none;
+    border-radius: 24px;
+}
+
+.popular-image {
+    margin-left: 100px;
+}
+
+.popular-menu .overlay-popular {
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.popular-menu .overlay-popular:hover {
+    opacity: 1;
+}
+
+.resto-loc p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--pr-color);
+}
+
+.resto-loc h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.btn-dropdown {
+    border: none;
+    border-radius: 12px;
+    background: #F2F2F2;
+    width: 252px;
+    height: 64px;
+    background-image: url(asset/Location.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-position-x: 20px;
+}
+
+.overlay-resto {
+    width: 300px;
+    height: 111px;
+    background-color: #fff;
+    border-radius: 24px;
+    top: 240px;
+    left: 45px;
+}
+
+.overlay-resto h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.overlay-resto p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #656565;
+}
+
+.overlay-resto button {
+    border: none;
+    border-radius: 24px;
+}
+
+.resto-menu .overlay-resto {
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.resto-menu .overlay-resto:hover {
+    opacity: 1;
+}
+
+.experience {
+    width: 179px;
+    height: 203px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 25px rgba(102, 102, 102, 0.04);
+    border-radius: 24px;
+    top: 5%;
+    left: 84%;
+}
+
+.chef-location {
+    width: 330px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 24px;
+    top: 75%;
+    right: 45%;
+}
+
+.btn-loc {
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: none;
+    color: var(--sc-color);
+}
+
+.btn-loc:hover {
+    background-color: var(--sc-color);
+    color: black;
+    transition: all ease-in-out 3ms;
+}
+
+.chef-info h5 {
+    color: var(--pr-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.chef-info h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.chef-resto {
+    width: 500px;
+    height: 140px;
+    border-radius: 24px;
+}
+
+.chef-resto:hover{
+    background-color: #fff;
+}
+
+.chef-resto p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.chef-resto h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.resto-loc {
+    background-image: url(asset/Location.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-position-x: 0px;
+}
+
+.resto-loc h5 {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.profile {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--sc-color);
+    background-color: transparent;
+    border: none;
+}
